@@ -1,0 +1,131 @@
+.booking-v3 {
+  padding-top: var(--nav-height);
+}
+
+.booking-hero {
+  text-align: center;
+  padding: 100px 0;
+  background: var(--bg-surface);
+}
+
+.booking-card-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 4px;
+  overflow: hidden;
+  margin-top: -50px;
+}
+
+.booking-visual {
+  background-image: url('https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=1000&auto=format&fit=crop');
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+}
+
+.booking-content {
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.booking-steps {
+  display: flex;
+  gap: 2rem;
+  margin: 2.5rem 0;
+}
+
+.step {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.8rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--text-dim);
+}
+
+.step span {
+  width: 24px;
+  height: 24px;
+  background: var(--brand-red);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 0.7rem;
+}
+
+.full-width {
+  width: 100%;
+  text-align: center;
+}
+
+/* Packages */
+.packages {
+  padding: 120px 0;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.section-title .line {
+  width: 50px;
+  height: 3px;
+  background: var(--brand-red);
+  margin: 1.5rem auto;
+}
+
+.package-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2.5rem;
+}
+
+.pkg-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  transition: all 0.3s ease;
+}
+
+.pkg-card:hover {
+  transform: translateY(-10px);
+  border-color: var(--brand-red);
+}
+
+.pkg-img {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.night-pkg-img { background-image: url('https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=800&auto=format&fit=crop'); }
+.group-pkg-img { background-image: url('https://images.unsplash.com/photo-1542751110-97427bbecf20?q=80&w=800&auto=format&fit=crop'); }
+.student-pkg-img { background-image: url('https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=800&auto=format&fit=crop'); }
+
+.pkg-body {
+  padding: 2rem;
+}
+
+.pkg-body h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.pkg-body p {
+  color: var(--text-dim);
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+@media (max-width: 968px) {
+  .booking-card-main { grid-template-columns: 1fr; }
+  .booking-content { padding: 2.5rem; }
+  .booking-steps { gap: 1rem; flex-wrap: wrap; }
+}

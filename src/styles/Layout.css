@@ -1,0 +1,161 @@
+.app-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-content {
+  flex: 1;
+}
+
+/* Footer V2 - Industrial Modern */
+.footer-v2 {
+  background: #050505;
+  border-top: 1px solid var(--border-subtle);
+  padding-top: 100px;
+  color: white;
+}
+
+.footer-top-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 0.8fr 1.2fr 1fr;
+  gap: 5rem;
+  margin-bottom: 80px;
+}
+
+.footer-logo {
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+  letter-spacing: 2px;
+}
+
+.footer-logo span { color: var(--brand-red); }
+
+.footer-description {
+  color: var(--text-dim);
+  font-size: 0.95rem;
+  line-height: 1.8;
+  margin-bottom: 2.5rem;
+}
+
+.footer-address-box label {
+  display: block;
+  font-size: 0.7rem;
+  font-weight: 900;
+  color: var(--brand-red);
+  letter-spacing: 2px;
+  margin-bottom: 0.8rem;
+}
+
+.footer-address-box p {
+  font-size: 0.9rem;
+  color: white;
+  line-height: 1.6;
+}
+
+.footer-link-col h4 {
+  font-size: 0.8rem;
+  font-weight: 900;
+  color: var(--text-muted);
+  letter-spacing: 3px;
+  margin-bottom: 2.5rem;
+}
+
+.footer-link-col ul {
+  list-style: none;
+}
+
+.footer-link-col ul li {
+  margin-bottom: 1.2rem;
+}
+
+.footer-link-col ul li a {
+  color: var(--text-dim);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.footer-link-col ul li a:hover {
+  color: var(--brand-red);
+}
+
+/* Hours List */
+.hours-list li {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  margin-bottom: 1.5rem !important;
+}
+
+.hours-list span {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.hours-list strong {
+  font-size: 1rem;
+  color: white;
+}
+
+.hours-list small {
+  color: var(--brand-red);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+}
+
+/* Contact Actions */
+.footer-contact-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contact-item {
+  color: white;
+  font-weight: 700;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+.footer-btn {
+  display: inline-block;
+  background: var(--brand-red);
+  color: white;
+  padding: 12px 20px;
+  text-align: center;
+  font-weight: 800;
+  font-size: 0.85rem;
+  text-decoration: none;
+  border-radius: 2px;
+}
+
+/* Bottom Bar */
+.footer-bottom-bar {
+  padding: 40px 0;
+  border-top: 1px solid var(--border-subtle);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--text-muted);
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+}
+
+.footer-meta {
+  display: flex;
+  gap: 2rem;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+@media (max-width: 1100px) {
+  .footer-top-grid { grid-template-columns: 1fr 1fr; gap: 4rem; }
+}
+
+@media (max-width: 650px) {
+  .footer-top-grid { grid-template-columns: 1fr; gap: 3rem; text-align: center; }
+  .footer-contact-actions { align-items: center; }
+  .footer-bottom-bar { flex-direction: column; gap: 1.5rem; }
+  .footer-v2 { padding-bottom: 100px; }
+}

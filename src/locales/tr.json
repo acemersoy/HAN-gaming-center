@@ -1,0 +1,27 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "venue": "Mekân",
+    "experience": "Deneyim",
+    "booking": "Rezervasyon",
+    "contact": "İletişim",
+    "book_now": "Yer Ayırt"
+  },
+  "hero": {
+    "badge": "Esenboğa’nın İlk Ve Tek E-Spor Merkezi",
+    "title": "AYBÜ GİRİŞ KAPISININ YANINDA GERÇEK OYUN ORTAMI.",
+    "description": "Düşük pingli PC alanları, PlayStation 5 keyfi ve arkadaşlarınla rahatça takılabileceğin profesyonel bir oyun merkezi. Kampüsün tam kalbinde, rekabetin merkezindesin.",
+    "cta_call": "Hemen Ara",
+    "cta_wa": "WhatsApp Rezervasyon"
+  },
+  "footer": {
+    "about_title": "HAN GAME CENTER",
+    "about_text": "Esenboğa'nın ilk ve tek e-spor merkezi. Düşük ping, yüksek performans ve arkadaş ortamı burada.",
+    "quick_links": "Hızlı Menü",
+    "contact_title": "İletişim",
+    "address_short": "AYBÜ Giriş Kapısı Yanı, A101 Bitişiği",
+    "hours_title": "Çalışma Saatleri",
+    "hours_text": "Hafta içi & Hafta sonu: 09:00 - 00:00",
+    "rights": "Tüm Hakları Saklıdır."
+  }
+}

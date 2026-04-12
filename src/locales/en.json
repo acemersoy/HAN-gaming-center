@@ -1,0 +1,27 @@
+{
+  "nav": {
+    "home": "Home",
+    "venue": "Venue",
+    "experience": "Experience",
+    "booking": "Booking",
+    "contact": "Contact",
+    "book_now": "Book Now"
+  },
+  "hero": {
+    "badge": "Esenboğa's First and Only E-Sports Center",
+    "title": "REAL GAMING ENVIRONMENT RIGHT NEXT TO AYBU GATE.",
+    "description": "Low-latency PC areas, PlayStation 5 fun and a professional gaming center where you can hang out with your friends. Right in the heart of the campus, at the center of competition.",
+    "cta_call": "Call Now",
+    "cta_wa": "WhatsApp Booking"
+  },
+  "footer": {
+    "about_title": "HAN GAME CENTER",
+    "about_text": "Esenboğa's first and only e-sports center. Low ping, high performance, and great atmosphere.",
+    "quick_links": "Quick Links",
+    "contact_title": "Contact",
+    "address_short": "Next to AYBU Gate, Beside A101",
+    "hours_title": "Working Hours",
+    "hours_text": "Weekday & Weekend: 09:00 - 00:00",
+    "rights": "All Rights Reserved."
+  }
+}

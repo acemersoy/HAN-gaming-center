@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hangamecenter.com/sitemap.xml
